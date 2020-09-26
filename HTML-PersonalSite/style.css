@@ -1,0 +1,251 @@
+/* 
+
+font-family: 'Clicker Script', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+
+*/
+
+/* general */
+/* ********** */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #af5a30;
+  letter-spacing: 1px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+h1 {
+  color: #ac4b1c;
+  font-size: 6rem;
+  font-family: "Clicker Script", cursive;
+}
+h2,
+h3 {
+  color: #ac4b1c;
+  font-family: "Quicksand", sans-serif;
+}
+h2 {
+  font-size: 2.7rem;
+}
+h3 {
+  font-size: 2rem;
+}
+
+/* Nav-bar*/
+/* ********** */
+
+.nav-bar {
+  height: 58px;
+  display: none;
+}
+.nav-bar ol li {
+  float: right;
+  padding: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+.nav-bar ol li a {
+  text-decoration: none;
+  color: #ac4b1c;
+}
+
+/* Home-page*/
+/* ********** */
+
+.home {
+  background-color: #ffd57e;
+  height: 100vh;
+}
+.home-text {
+  margin: 10% auto 0;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  left: 300px;
+  bottom: 100px;
+}
+.home-text p {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.home img {
+  width: 410px;
+  height: 380px;
+  position: relative;
+  top: 190px;
+  left: 50px;
+}
+
+/* Personal-Experience*/
+/* ****************** */
+.container {
+  background-color: #fff2b1;
+}
+.experience {
+  width: 75%;
+  height: fit-content;
+  margin: 0 auto;
+  line-height: 2;
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: 30px 0 60px;
+  text-align: justify;
+}
+.experience h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+/* .experience-list {
+  list-style: none;
+} */
+.experience ul li strong {
+  font-weight: normal;
+}
+
+/****** skills ********/
+/* ****************** */
+
+.skills {
+  background-color: #ffefa0;
+  line-height: 3rem;
+  font-weight: normal;
+  text-align: justify;
+  padding: 50px 0;
+}
+.skills h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.skills h3 {
+  font-weight: 400;
+}
+.skills p {
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+.skills-container {
+  width: 75%;
+  height: fit-content;
+  margin: 0 auto;
+}
+.skills-language {
+  width: 75%;
+  margin: 30px auto;
+  text-align: left;
+}
+.skills-tools {
+  width: 75%;
+  margin: 30px auto;
+  text-align: right;
+}
+.skills-course {
+  width: 75%;
+  margin: 30px auto;
+  text-align: left;
+}
+ion-icon {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+/****** contact-me ********/
+/* ****************** */
+
+.contact-me {
+  background-color: #fff2b1;
+}
+.contact-me-container {
+  width: 70%;
+  padding: 40px 0;
+  text-align: center;
+  line-height: 2;
+  margin: 0 auto;
+}
+.contact-me a {
+  background-color: #ac4b1c;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff2b1;
+  border-radius: 20px;
+  font-size: large;
+}
+.contact-me a:hover {
+  background-color: #ffd57e;
+  transition: 1s;
+  color: #291207;
+}
+.contact-me p {
+  margin-bottom: 30px;
+}
+
+/****** footer ********/
+/* ****************** */
+
+.footer {
+  background-color: #291207;
+  height: 100px;
+  width: 100%;
+  font-size: small;
+  text-align: center;
+}
+.footer a {
+  color: #af5a30;
+  padding-left: 30px;
+}
+.footer a:hover {
+  color: #ffd57e;
+  text-decoration: none;
+  transition: 1s;
+}
+.footer p {
+  color: #ffefa0;
+  margin-top: 10px;
+  padding-left: 25px;
+  padding-top: 10px;
+  size: 0.89rem;
+}
+.footer-container {
+  padding-top: 40px;
+}
+
+/****** form page ********/
+/* *************************** */
+
+.form-heading {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+}
+.form-heading h1 {
+  font-size: 4rem;
+  font-family: "Marck Script", cursive;
+}
+.form-page {
+  width: 70%;
+  margin: 40px auto 0;
+  text-align: center;
+  font-weight: 600;
+  padding: 20px 0;
+}
+.btn {
+  background-color: #af5a30;
+  padding: 5px;
+  font-size: larger;
+  border-radius: 20px;
+  border-color: #af5a30;
+}
+.btn:hover {
+  background-color: #291207;
+  border-color: #291207;
+  color: #ffd57e;
+  transition: 1s;
+}
