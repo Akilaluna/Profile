@@ -1,2 +1,2 @@
 # Profile
-Done just with html and css
+learning purpose - html and css
